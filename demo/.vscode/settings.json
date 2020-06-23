@@ -1,0 +1,14 @@
+{
+    // Workspace Settings
+    // virtual environments 中的 python 執行檔
+    "python.pythonPath": "D:\\Projects\\Practice\\python_playground\\python_basic\\Scripts\\python.exe",
+    // 可以設定你放全部的 venvs 環境的根目錄資料夾
+    "python.venvPath": "D:\\Projects\\Practice\\python_playground",
+    "python.terminal.activateEnvironment": true, // 自動啟動環境
+    "python.linting.pylintEnabled": true, // 需要 pip install pylint
+    "python.linting.enabled": true, // 需要 pip install pylint
+    "python.autoComplete.extraPaths": [
+        "D:\\Projects\\Practice\\python_playground\\python_basic", // 設定你的 venv 的環境目錄資料夾，為了偵測一些 python library,
+        "D:\\Projects\\Practice\\python_playground\\demo", // 偵測自己自定義的 class，覺得這樣範圍太大可以再限縮 ex"D:\\Projects\\Practice\\python_playground"\\demo\\src
+    ]
+}
